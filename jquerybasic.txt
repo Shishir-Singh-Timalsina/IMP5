@@ -1,0 +1,4 @@
+What can you do with jQuery?
+How it can help you as a webdebeloper?
+If you think our earlier participation list app, in what kind of issues you culd use jQuery?
+Whats are CDNS? What kind of benefits you get if you use them?
