@@ -1,4 +1,12 @@
 What can you do with jQuery?
-How it can help you as a webdebeloper?
-If you think our earlier participation list app, in what kind of issues you culd use jQuery?
+-> Jquery is a small and fast library collection of javascript.
+
+How it can help you as a webdeveloper?
+-> It makes few things easier and simpler like event handling, animation, 
+Ajax etc.
+
+If you think our earlier participation list app, in what kind of issues you could use jQuery?
+
 Whats are CDNS? What kind of benefits you get if you use them?
+CDNS (Content delivery network) delivers web contents based on geographic locations which results in
+faster data transfer, better traffic management,security, ease to control data(cencorship or content appopriate forparticular location) etc.

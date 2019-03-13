@@ -6,12 +6,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <title>IMP LAB 5</title>
+
         <!-- External CSS -->
         <link rel="stylesheet" href="CSS.css">
         
         <!-- Javascript -->
-        <script src="javascript.js"></script>
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="PersonModel.js"></script>
+        <script src="ViewController.js"></script>
+        
     </head>
     <body>
         
@@ -20,6 +23,21 @@
 
         
         <div class="container">
+           
+            <!-- Input name-->
+            Name:
+            <input id="name" type="text">
+            <button onclick="load()">Add Person</button>
+
+            <!--Display names-->
+            <div class="content">
+                <ul id="list"></ul>
+            </div>
+
+            <!--Javascript-->
+            <script src="javascript.js"></script>
+
+
         </div>
         
     </body>
