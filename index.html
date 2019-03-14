@@ -23,20 +23,30 @@
 
         
         <div class="container">
-           
-            <!-- Input name-->
-            Name:
-            <input id="name" type="text">
-            <button onclick="load()">Add Person</button>
+            
+            <div>   <!--First part 5,2-->
+                <!-- Input name-->
+                Name:
+                <input type="text" id="name">
+                <button onclick="loadName()">Add Person</button>
 
-            <!--Display names-->
-            <div class="content">
-                <ul id="list"></ul>
+                <!--Display names-->
+                <div class="jqueryContent">
+                    <ul id="jqueryList"></ul>
+                </div>
+
+                <!--Javascript-->
+                <script src="javascript.js"></script>
             </div>
 
-            <!--Javascript-->
-            <script src="javascript.js"></script>
-
+            <div>   <!--Second part 5,3   AJAx-->
+                <input type="submit" id="submit" value="Load with ajax">
+                <div class="ajaxContent">
+                    <ul id="ajaxList">
+                        
+                    </ul>
+                </div>
+            </div>
 
         </div>
         

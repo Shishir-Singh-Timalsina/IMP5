@@ -13,7 +13,7 @@ function ViewController()
 				var nodea = document.createElement("LI");
 				var textnode = document.createTextNode(this.localStoragePersons[i]['name']); 
 				nodea.appendChild(textnode);
-				document.getElementById("list").appendChild(nodea);
+				document.getElementById("jqueryList").appendChild(nodea);
 			}			
 		}		
 	}
@@ -26,3 +26,4 @@ function ViewController()
 		this.updatePersonsView();
 	}
 }
+
